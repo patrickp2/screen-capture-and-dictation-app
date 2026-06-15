@@ -8,18 +8,24 @@
         <description>Appcast for Screen Capture and Dictation App.</description>
         <language>en</language>
         <item>
-            <title>Version 0.1.1</title>
-            <link>https://github.com/patrickp2/screen-capture-and-dictation-app/releases/tag/v0.1.1</link>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <title>Version 0.1.3</title>
+            <link>https://github.com/patrickp2/screen-capture-and-dictation-app/releases/tag/v0.1.3</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>0.1.3</sparkle:shortVersionString>
             <description sparkle:format="markdown"><![CDATA[
-Version 0.1.1.
+Version 0.1.3.
+
+- Improves capture and recording cleanup after selections complete.
+- Makes recording review exports safer when render options change quickly.
+- Preserves existing video output if a replacement export fails.
+- Makes dictation clipboard restoration less likely to overwrite newer clipboard changes.
+- Adds release and install guardrails to reduce publishing and local install mistakes.
 ]]></description>
-            <pubDate>Sat, 13 Jun 2026 19:27:42 +0000</pubDate>
+            <pubDate>Mon, 15 Jun 2026 18:19:09 +0000</pubDate>
             <enclosure
-                url="https://github.com/patrickp2/screen-capture-and-dictation-app/releases/download/v0.1.1/Screen-Capture-and-Dictation-App-0.1.1.dmg"
-                sparkle:edSignature="WeQvqZYEZK4OBvLMXEDISloH4qLguYr9MMui9+crW7ZcB9jVhTwDGPnxjfLw74WV264tdCc6KUz4LysiIDCWDg=="
-                length="1918785"
+                url="https://github.com/patrickp2/screen-capture-and-dictation-app/releases/download/v0.1.3/Screen-Capture-and-Dictation-App-0.1.3.dmg"
+                sparkle:edSignature="ikMmRX9xW0jTIIvMxymCAxzMhraOeUZmJlFQ9jqHnFN5hrUHvv699YxYBTZ4X/DF8AEk72W+PvLSZ2IQJRcjCw=="
+                length="1952355"
                 type="application/octet-stream" />
         </item>
     </channel>
